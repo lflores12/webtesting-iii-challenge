@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/react/cleanup-after-each';
 
 import Display from './Display';
-import Dashboard from '../dashboard/Dashboard';
+
 
 describe('<Display />', () => {
     it('matches snapshot', () => {
